@@ -44,14 +44,14 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=testing
+CurrentVariant=servos
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=RV901-cnc.PcbDoc
+DocumentPath=RV901-cnc-flipped.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -68,6 +68,23 @@ GenerateClassCluster=0
 DocumentUniqueId=NTKCDITG
 
 [Document2]
+DocumentPath=RV901-cnc.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JKQKTVEW
+
+[Document3]
 DocumentPath=RV901-cnc.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -84,8 +101,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FFTOZVPD
 
-[Document3]
+[Document4]
 DocumentPath=Chineesium.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document5]
+DocumentPath=assembly-bot.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -101,7 +135,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
+[Document6]
 DocumentPath=Endstop.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -118,7 +152,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YTXHHWGZ
 
-[Document5]
+[Document7]
 DocumentPath=Axis.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -135,7 +169,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZXJOQBFM
 
-[Document6]
+[Document8]
 DocumentPath=Encoder.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -152,7 +186,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VQDNSZVN
 
-[Document7]
+[Document9]
 DocumentPath=Serial.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -169,7 +203,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PUJYFKIE
 
-[Document8]
+[Document10]
 DocumentPath=GPI.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -186,7 +220,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MVUNFFJU
 
-[Document9]
+[Document11]
 DocumentPath=GPO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -203,7 +237,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DIXPAQPK
 
-[Document10]
+[Document12]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -220,7 +254,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QDEZJOMF
 
-[Document11]
+[Document13]
 DocumentPath=RV901-cnc.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -239,173 +273,276 @@ DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueId=7cba5983-d857-4bf0-8b27-b807f1036112
-Description=steppers_single_ended
+Description=servos
 AllowFabrication=0
 ParameterCount=0
-VariationCount=155
-Variation1=Designator=R20A|UniqueId=\OLFZLMLB\DRKMXVEK|Kind=1|AlternatePart=
-Variation2=Designator=C9A|UniqueId=\OLFZLMLB\PYVGUNTY|Kind=1|AlternatePart=
-Variation3=Designator=U2A|UniqueId=\OLFZLMLB\TUNHNGFT|Kind=1|AlternatePart=
-Variation4=Designator=R21A|UniqueId=\OLFZLMLB\QGDSXEPI|Kind=1|AlternatePart=
-Variation5=Designator=R22A|UniqueId=\OLFZLMLB\BYTKFMMM|Kind=1|AlternatePart=
-Variation6=Designator=C14A|UniqueId=\OLFZLMLB\KKPIQIJU|Kind=1|AlternatePart=
-Variation7=Designator=R18A|UniqueId=\OLFZLMLB\MUSMOKCC|Kind=1|AlternatePart=
-Variation8=Designator=R16A|UniqueId=\OLFZLMLB\VDBOEYXX|Kind=1|AlternatePart=
-Variation9=Designator=R15A|UniqueId=\OLFZLMLB\YDDXNAVF|Kind=1|AlternatePart=
-Variation10=Designator=C8A|UniqueId=\OLFZLMLB\UFHGFDAI|Kind=1|AlternatePart=
-Variation11=Designator=C12A|UniqueId=\OLFZLMLB\RJEFDTWM|Kind=1|AlternatePart=
-Variation12=Designator=C13A|UniqueId=\OLFZLMLB\HQFJNTLH|Kind=1|AlternatePart=
-Variation13=Designator=C16A|UniqueId=\OLFZLMLB\AALLEZIV|Kind=1|AlternatePart=
-Variation14=Designator=R24A|UniqueId=\OLFZLMLB\ROFRCHAL|Kind=1|AlternatePart=
-Variation15=Designator=R10A|UniqueId=\UBRUKMSH\ADQAGHDU|Kind=1|AlternatePart=
-Variation16=Designator=R15B|UniqueId=\OPHVOGGF\YDDXNAVF|Kind=1|AlternatePart=
-Variation17=Designator=R16B|UniqueId=\OPHVOGGF\VDBOEYXX|Kind=1|AlternatePart=
-Variation18=Designator=R18B|UniqueId=\OPHVOGGF\MUSMOKCC|Kind=1|AlternatePart=
-Variation19=Designator=C8B|UniqueId=\OPHVOGGF\UFHGFDAI|Kind=1|AlternatePart=
-Variation20=Designator=U2B|UniqueId=\OPHVOGGF\TUNHNGFT|Kind=1|AlternatePart=
-Variation21=Designator=R22B|UniqueId=\OPHVOGGF\BYTKFMMM|Kind=1|AlternatePart=
-Variation22=Designator=C14B|UniqueId=\OPHVOGGF\KKPIQIJU|Kind=1|AlternatePart=
-Variation23=Designator=R10B|UniqueId=\UGBDDSLU\ADQAGHDU|Kind=1|AlternatePart=
-Variation24=Designator=R10C|UniqueId=\QEVXDZDJ\ADQAGHDU|Kind=1|AlternatePart=
-Variation25=Designator=R10D|UniqueId=\VLQODBEI\ADQAGHDU|Kind=1|AlternatePart=
-Variation26=Designator=R30A|UniqueId=\RGWNKOBX\MNZQDTIC|Kind=1|AlternatePart=
-Variation27=Designator=R32A|UniqueId=\RGWNKOBX\AAEVXUEK|Kind=1|AlternatePart=
-Variation28=Designator=R36A|UniqueId=\RGWNKOBX\PZDQXKML|Kind=1|AlternatePart=
-Variation29=Designator=R34A|UniqueId=\RGWNKOBX\RSMWOLWA|Kind=1|AlternatePart=
-Variation30=Designator=R37A|UniqueId=\RGWNKOBX\DFDINTCQ|Kind=1|AlternatePart=
-Variation31=Designator=R38A|UniqueId=\RGWNKOBX\DKMSAUVG|Kind=1|AlternatePart=
-Variation32=Designator=U3A|UniqueId=\RGWNKOBX\PEIUZWLV|Kind=1|AlternatePart=
-Variation33=Designator=C22A|UniqueId=\RGWNKOBX\JJTMGTKI|Kind=1|AlternatePart=
-Variation34=Designator=R40A|UniqueId=\RGWNKOBX\LJJBJCMP|Kind=1|AlternatePart=
-Variation35=Designator=R39A|UniqueId=\RGWNKOBX\PEJCILRP|Kind=1|AlternatePart=
-Variation36=Designator=C21A|UniqueId=\RGWNKOBX\VWSYGMOC|Kind=1|AlternatePart=
-Variation37=Designator=J3A|UniqueId=\RGWNKOBX\AVWCNNKQ|Kind=1|AlternatePart=
-Variation38=Designator=R33A|UniqueId=\RGWNKOBX\QTYWNCCH|Kind=1|AlternatePart=
-Variation39=Designator=R35A|UniqueId=\RGWNKOBX\CMRDDHIN|Kind=1|AlternatePart=
-Variation40=Designator=R31A|UniqueId=\RGWNKOBX\VFPGFFPV|Kind=1|AlternatePart=
-Variation41=Designator=J3B|UniqueId=\JGNBHYUV\AVWCNNKQ|Kind=1|AlternatePart=
-Variation42=Designator=R31B|UniqueId=\JGNBHYUV\VFPGFFPV|Kind=1|AlternatePart=
-Variation43=Designator=R33B|UniqueId=\JGNBHYUV\QTYWNCCH|Kind=1|AlternatePart=
-Variation44=Designator=R35B|UniqueId=\JGNBHYUV\CMRDDHIN|Kind=1|AlternatePart=
-Variation45=Designator=R39B|UniqueId=\JGNBHYUV\PEJCILRP|Kind=1|AlternatePart=
-Variation46=Designator=R40B|UniqueId=\JGNBHYUV\LJJBJCMP|Kind=1|AlternatePart=
-Variation47=Designator=C21B|UniqueId=\JGNBHYUV\VWSYGMOC|Kind=1|AlternatePart=
-Variation48=Designator=C22B|UniqueId=\JGNBHYUV\JJTMGTKI|Kind=1|AlternatePart=
-Variation49=Designator=U3B|UniqueId=\JGNBHYUV\PEIUZWLV|Kind=1|AlternatePart=
-Variation50=Designator=R34B|UniqueId=\JGNBHYUV\RSMWOLWA|Kind=1|AlternatePart=
-Variation51=Designator=R32B|UniqueId=\JGNBHYUV\AAEVXUEK|Kind=1|AlternatePart=
-Variation52=Designator=R30B|UniqueId=\JGNBHYUV\MNZQDTIC|Kind=1|AlternatePart=
-Variation53=Designator=R36B|UniqueId=\JGNBHYUV\PZDQXKML|Kind=1|AlternatePart=
-Variation54=Designator=R37B|UniqueId=\JGNBHYUV\DFDINTCQ|Kind=1|AlternatePart=
-Variation55=Designator=R38B|UniqueId=\JGNBHYUV\DKMSAUVG|Kind=1|AlternatePart=
-Variation56=Designator=R39D|UniqueId=\PCVDHWAV\PEJCILRP|Kind=1|AlternatePart=
-Variation57=Designator=R40D|UniqueId=\PCVDHWAV\LJJBJCMP|Kind=1|AlternatePart=
-Variation58=Designator=J3D|UniqueId=\PCVDHWAV\AVWCNNKQ|Kind=1|AlternatePart=
-Variation59=Designator=J3C|UniqueId=\ZTQYSVFV\AVWCNNKQ|Kind=1|AlternatePart=
-Variation60=Designator=C22C|UniqueId=\ZTQYSVFV\JJTMGTKI|Kind=1|AlternatePart=
-Variation61=Designator=C21C|UniqueId=\ZTQYSVFV\VWSYGMOC|Kind=1|AlternatePart=
-Variation62=Designator=C21D|UniqueId=\PCVDHWAV\VWSYGMOC|Kind=1|AlternatePart=
-Variation63=Designator=C22D|UniqueId=\PCVDHWAV\JJTMGTKI|Kind=1|AlternatePart=
-Variation64=Designator=R35D|UniqueId=\PCVDHWAV\CMRDDHIN|Kind=1|AlternatePart=
-Variation65=Designator=R30C|UniqueId=\ZTQYSVFV\MNZQDTIC|Kind=1|AlternatePart=
-Variation66=Designator=R36C|UniqueId=\ZTQYSVFV\PZDQXKML|Kind=1|AlternatePart=
-Variation67=Designator=R36D|UniqueId=\PCVDHWAV\PZDQXKML|Kind=1|AlternatePart=
-Variation68=Designator=R30D|UniqueId=\PCVDHWAV\MNZQDTIC|Kind=1|AlternatePart=
-Variation69=Designator=R37C|UniqueId=\ZTQYSVFV\DFDINTCQ|Kind=1|AlternatePart=
-Variation70=Designator=R34C|UniqueId=\ZTQYSVFV\RSMWOLWA|Kind=1|AlternatePart=
-Variation71=Designator=R37D|UniqueId=\PCVDHWAV\DFDINTCQ|Kind=1|AlternatePart=
-Variation72=Designator=R31C|UniqueId=\ZTQYSVFV\VFPGFFPV|Kind=1|AlternatePart=
-Variation73=Designator=R34D|UniqueId=\PCVDHWAV\RSMWOLWA|Kind=1|AlternatePart=
-Variation74=Designator=R38C|UniqueId=\ZTQYSVFV\DKMSAUVG|Kind=1|AlternatePart=
-Variation75=Designator=R31D|UniqueId=\PCVDHWAV\VFPGFFPV|Kind=1|AlternatePart=
-Variation76=Designator=R38D|UniqueId=\PCVDHWAV\DKMSAUVG|Kind=1|AlternatePart=
-Variation77=Designator=R39C|UniqueId=\ZTQYSVFV\PEJCILRP|Kind=1|AlternatePart=
-Variation78=Designator=R32C|UniqueId=\ZTQYSVFV\AAEVXUEK|Kind=1|AlternatePart=
-Variation79=Designator=R32D|UniqueId=\PCVDHWAV\AAEVXUEK|Kind=1|AlternatePart=
-Variation80=Designator=R40C|UniqueId=\ZTQYSVFV\LJJBJCMP|Kind=1|AlternatePart=
-Variation81=Designator=R33C|UniqueId=\ZTQYSVFV\QTYWNCCH|Kind=1|AlternatePart=
-Variation82=Designator=R35C|UniqueId=\ZTQYSVFV\CMRDDHIN|Kind=1|AlternatePart=
-Variation83=Designator=R33D|UniqueId=\PCVDHWAV\QTYWNCCH|Kind=1|AlternatePart=
-Variation84=Designator=U3C|UniqueId=\ZTQYSVFV\PEIUZWLV|Kind=1|AlternatePart=
-Variation85=Designator=U3D|UniqueId=\PCVDHWAV\PEIUZWLV|Kind=1|AlternatePart=
-Variation86=Designator=C23A|UniqueId=\WSEUZHIU\TXAKYJGK|Kind=1|AlternatePart=
-Variation87=Designator=C25B|UniqueId=\YTURIDGK\EBFIHWPV|Kind=1|AlternatePart=
-Variation88=Designator=C26B|UniqueId=\YTURIDGK\ZADXYEAI|Kind=1|AlternatePart=
-Variation89=Designator=C28A|UniqueId=\WSEUZHIU\JHFCJDFE|Kind=1|AlternatePart=
-Variation90=Designator=C25A|UniqueId=\WSEUZHIU\EBFIHWPV|Kind=1|AlternatePart=
-Variation91=Designator=C27B|UniqueId=\YTURIDGK\ZOFZEBBE|Kind=1|AlternatePart=
-Variation92=Designator=C26A|UniqueId=\WSEUZHIU\ZADXYEAI|Kind=1|AlternatePart=
-Variation93=Designator=C24B|UniqueId=\YTURIDGK\VVHMFPNV|Kind=1|AlternatePart=
-Variation94=Designator=C24A|UniqueId=\WSEUZHIU\VVHMFPNV|Kind=1|AlternatePart=
-Variation95=Designator=C23B|UniqueId=\YTURIDGK\TXAKYJGK|Kind=1|AlternatePart=
-Variation96=Designator=C28B|UniqueId=\YTURIDGK\JHFCJDFE|Kind=1|AlternatePart=
-Variation97=Designator=C27A|UniqueId=\WSEUZHIU\ZOFZEBBE|Kind=1|AlternatePart=
-Variation98=Designator=U4A|UniqueId=\WSEUZHIU\GSLLKMSY|Kind=1|AlternatePart=
-Variation99=Designator=U5A|UniqueId=\WSEUZHIU\NKTEGRZW|Kind=1|AlternatePart=
-Variation100=Designator=J4A|UniqueId=\WSEUZHIU\WXVVUKLD|Kind=1|AlternatePart=
-Variation101=Designator=R41A|UniqueId=\WSEUZHIU\QBBMQECM|Kind=1|AlternatePart=
-Variation102=Designator=R42A|UniqueId=\WSEUZHIU\YRPRAQSQ|Kind=1|AlternatePart=
-Variation103=Designator=R45A|UniqueId=\WSEUZHIU\NWBAINFT|Kind=1|AlternatePart=
-Variation104=Designator=R44A|UniqueId=\WSEUZHIU\FOZLQEJK|Kind=1|AlternatePart=
-Variation105=Designator=R43A|UniqueId=\WSEUZHIU\BOMVYVWU|Kind=1|AlternatePart=
-Variation106=Designator=R46A|UniqueId=\WSEUZHIU\UZZIDSMB|Kind=1|AlternatePart=
-Variation107=Designator=J4B|UniqueId=\YTURIDGK\WXVVUKLD|Kind=1|AlternatePart=
-Variation108=Designator=R41B|UniqueId=\YTURIDGK\QBBMQECM|Kind=1|AlternatePart=
-Variation109=Designator=R42B|UniqueId=\YTURIDGK\YRPRAQSQ|Kind=1|AlternatePart=
-Variation110=Designator=R43B|UniqueId=\YTURIDGK\BOMVYVWU|Kind=1|AlternatePart=
-Variation111=Designator=R45B|UniqueId=\YTURIDGK\NWBAINFT|Kind=1|AlternatePart=
-Variation112=Designator=R44B|UniqueId=\YTURIDGK\FOZLQEJK|Kind=1|AlternatePart=
-Variation113=Designator=R46B|UniqueId=\YTURIDGK\UZZIDSMB|Kind=1|AlternatePart=
-Variation114=Designator=U4B|UniqueId=\YTURIDGK\GSLLKMSY|Kind=1|AlternatePart=
-Variation115=Designator=U5B|UniqueId=\YTURIDGK\NKTEGRZW|Kind=1|AlternatePart=
-Variation116=Designator=R47A|UniqueId=\ITQECYCU\XCDGXYAX|Kind=1|AlternatePart=
-Variation117=Designator=R47B|UniqueId=\PTXJEQJM\XCDGXYAX|Kind=1|AlternatePart=
-Variation118=Designator=R55|UniqueId=\MBWUEBIX\SKFMORWB|Kind=1|AlternatePart=
-Variation119=Designator=R58|UniqueId=\MBWUEBIX\WROHSEZL|Kind=1|AlternatePart=
-Variation120=Designator=R62|UniqueId=\MBWUEBIX\MWPAOHQA|Kind=1|AlternatePart=
-Variation121=Designator=C8C|UniqueId=\JKFHDHKR\UFHGFDAI|Kind=1|AlternatePart=
-Variation122=Designator=C8D|UniqueId=\SBIUCCMJ\UFHGFDAI|Kind=1|AlternatePart=
-Variation123=Designator=C9D|UniqueId=\SBIUCCMJ\PYVGUNTY|Kind=1|AlternatePart=
-Variation124=Designator=C9C|UniqueId=\JKFHDHKR\PYVGUNTY|Kind=1|AlternatePart=
-Variation125=Designator=C9B|UniqueId=\OPHVOGGF\PYVGUNTY|Kind=1|AlternatePart=
-Variation126=Designator=C12B|UniqueId=\OPHVOGGF\RJEFDTWM|Kind=1|AlternatePart=
-Variation127=Designator=C12D|UniqueId=\SBIUCCMJ\RJEFDTWM|Kind=1|AlternatePart=
-Variation128=Designator=C12C|UniqueId=\JKFHDHKR\RJEFDTWM|Kind=1|AlternatePart=
-Variation129=Designator=C13C|UniqueId=\JKFHDHKR\HQFJNTLH|Kind=1|AlternatePart=
-Variation130=Designator=C13D|UniqueId=\SBIUCCMJ\HQFJNTLH|Kind=1|AlternatePart=
-Variation131=Designator=C13B|UniqueId=\OPHVOGGF\HQFJNTLH|Kind=1|AlternatePart=
-Variation132=Designator=C14C|UniqueId=\JKFHDHKR\KKPIQIJU|Kind=1|AlternatePart=
-Variation133=Designator=C14D|UniqueId=\SBIUCCMJ\KKPIQIJU|Kind=1|AlternatePart=
-Variation134=Designator=C16B|UniqueId=\OPHVOGGF\AALLEZIV|Kind=1|AlternatePart=
-Variation135=Designator=C16C|UniqueId=\JKFHDHKR\AALLEZIV|Kind=1|AlternatePart=
-Variation136=Designator=C16D|UniqueId=\SBIUCCMJ\AALLEZIV|Kind=1|AlternatePart=
-Variation137=Designator=R15D|UniqueId=\SBIUCCMJ\YDDXNAVF|Kind=1|AlternatePart=
-Variation138=Designator=R15C|UniqueId=\JKFHDHKR\YDDXNAVF|Kind=1|AlternatePart=
-Variation139=Designator=R16C|UniqueId=\JKFHDHKR\VDBOEYXX|Kind=1|AlternatePart=
-Variation140=Designator=R16D|UniqueId=\SBIUCCMJ\VDBOEYXX|Kind=1|AlternatePart=
-Variation141=Designator=R18C|UniqueId=\JKFHDHKR\MUSMOKCC|Kind=1|AlternatePart=
-Variation142=Designator=R18D|UniqueId=\SBIUCCMJ\MUSMOKCC|Kind=1|AlternatePart=
-Variation143=Designator=R22D|UniqueId=\SBIUCCMJ\BYTKFMMM|Kind=1|AlternatePart=
-Variation144=Designator=R21D|UniqueId=\SBIUCCMJ\QGDSXEPI|Kind=1|AlternatePart=
-Variation145=Designator=R21C|UniqueId=\JKFHDHKR\QGDSXEPI|Kind=1|AlternatePart=
-Variation146=Designator=R20B|UniqueId=\OPHVOGGF\DRKMXVEK|Kind=1|AlternatePart=
-Variation147=Designator=R20D|UniqueId=\SBIUCCMJ\DRKMXVEK|Kind=1|AlternatePart=
-Variation148=Designator=R20C|UniqueId=\JKFHDHKR\DRKMXVEK|Kind=1|AlternatePart=
-Variation149=Designator=R22C|UniqueId=\JKFHDHKR\BYTKFMMM|Kind=1|AlternatePart=
-Variation150=Designator=R21B|UniqueId=\OPHVOGGF\QGDSXEPI|Kind=1|AlternatePart=
-Variation151=Designator=R24B|UniqueId=\OPHVOGGF\ROFRCHAL|Kind=1|AlternatePart=
-Variation152=Designator=R24C|UniqueId=\JKFHDHKR\ROFRCHAL|Kind=1|AlternatePart=
-Variation153=Designator=R24D|UniqueId=\SBIUCCMJ\ROFRCHAL|Kind=1|AlternatePart=
-Variation154=Designator=U2D|UniqueId=\SBIUCCMJ\TUNHNGFT|Kind=1|AlternatePart=
-Variation155=Designator=U2C|UniqueId=\JKFHDHKR\TUNHNGFT|Kind=1|AlternatePart=
-ParamVariationCount=0
+VariationCount=48
+Variation1=Designator=R15A|UniqueId=\OLFZLMLB\YDDXNAVF|Kind=0|AlternatePart=
+Variation2=Designator=R24A|UniqueId=\OLFZLMLB\ROFRCHAL|Kind=1|AlternatePart=
+Variation3=Designator=R15B|UniqueId=\OPHVOGGF\YDDXNAVF|Kind=0|AlternatePart=
+Variation4=Designator=U3A|UniqueId=\RGWNKOBX\PEIUZWLV|Kind=1|AlternatePart=
+Variation5=Designator=R40A|UniqueId=\RGWNKOBX\LJJBJCMP|Kind=1|AlternatePart=
+Variation6=Designator=R40B|UniqueId=\JGNBHYUV\LJJBJCMP|Kind=1|AlternatePart=
+Variation7=Designator=U3B|UniqueId=\JGNBHYUV\PEIUZWLV|Kind=1|AlternatePart=
+Variation8=Designator=R40D|UniqueId=\PCVDHWAV\LJJBJCMP|Kind=1|AlternatePart=
+Variation9=Designator=R40C|UniqueId=\ZTQYSVFV\LJJBJCMP|Kind=1|AlternatePart=
+Variation10=Designator=U3C|UniqueId=\ZTQYSVFV\PEIUZWLV|Kind=1|AlternatePart=
+Variation11=Designator=U3D|UniqueId=\PCVDHWAV\PEIUZWLV|Kind=1|AlternatePart=
+Variation12=Designator=U4A|UniqueId=\WSEUZHIU\GSLLKMSY|Kind=1|AlternatePart=
+Variation13=Designator=U5A|UniqueId=\WSEUZHIU\NKTEGRZW|Kind=1|AlternatePart=
+Variation14=Designator=R41A|UniqueId=\WSEUZHIU\QBBMQECM|Kind=1|AlternatePart=
+Variation15=Designator=R43A|UniqueId=\WSEUZHIU\BOMVYVWU|Kind=1|AlternatePart=
+Variation16=Designator=R46A|UniqueId=\WSEUZHIU\UZZIDSMB|Kind=1|AlternatePart=
+Variation17=Designator=R41B|UniqueId=\YTURIDGK\QBBMQECM|Kind=1|AlternatePart=
+Variation18=Designator=R43B|UniqueId=\YTURIDGK\BOMVYVWU|Kind=1|AlternatePart=
+Variation19=Designator=R46B|UniqueId=\YTURIDGK\UZZIDSMB|Kind=1|AlternatePart=
+Variation20=Designator=U4B|UniqueId=\YTURIDGK\GSLLKMSY|Kind=1|AlternatePart=
+Variation21=Designator=U5B|UniqueId=\YTURIDGK\NKTEGRZW|Kind=1|AlternatePart=
+Variation22=Designator=R47A|UniqueId=\ITQECYCU\XCDGXYAX|Kind=1|AlternatePart=
+Variation23=Designator=R47B|UniqueId=\PTXJEQJM\XCDGXYAX|Kind=0|AlternatePart=
+Variation24=Designator=R55|UniqueId=\MBWUEBIX\SKFMORWB|Kind=1|AlternatePart=
+Variation25=Designator=R58|UniqueId=\MBWUEBIX\WROHSEZL|Kind=1|AlternatePart=
+Variation26=Designator=R62|UniqueId=\MBWUEBIX\MWPAOHQA|Kind=1|AlternatePart=
+Variation27=Designator=R15D|UniqueId=\SBIUCCMJ\YDDXNAVF|Kind=0|AlternatePart=
+Variation28=Designator=R15C|UniqueId=\JKFHDHKR\YDDXNAVF|Kind=0|AlternatePart=
+Variation29=Designator=R24B|UniqueId=\OPHVOGGF\ROFRCHAL|Kind=1|AlternatePart=
+Variation30=Designator=R24C|UniqueId=\JKFHDHKR\ROFRCHAL|Kind=1|AlternatePart=
+Variation31=Designator=R24D|UniqueId=\SBIUCCMJ\ROFRCHAL|Kind=1|AlternatePart=
+Variation32=Designator=R11C|UniqueId=\QEVXDZDJ\GCGLIKWL|Kind=1|AlternatePart=
+Variation33=Designator=R11D|UniqueId=\VLQODBEI\GCGLIKWL|Kind=1|AlternatePart=
+Variation34=Designator=R11A|UniqueId=\UBRUKMSH\GCGLIKWL|Kind=1|AlternatePart=
+Variation35=Designator=R11B|UniqueId=\UGBDDSLU\GCGLIKWL|Kind=1|AlternatePart=
+Variation36=Designator=R48B|UniqueId=\PTXJEQJM\BNFZCPXQ|Kind=1|AlternatePart=
+Variation37=Designator=R50B|UniqueId=\PTXJEQJM\SIZYGMZQ|Kind=2|AlternatePart=Resistor|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=K:\altium_lib_db\Library.DBLib/Resistors|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=R_1k_0603_1_AECQ0|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Library.DBLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation1=ParameterName=AEC-Q|VariantValue=0
+ParamDesignator1=R50B
+ParamVariation2=ParameterName=Comment|VariantValue=Resistor
+ParamDesignator2=R50B
+ParamVariation3=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator3=R50B
+ParamVariation4=ParameterName=Database Table Name|VariantValue=Resistors
+ParamDesignator4=R50B
+ParamVariation5=ParameterName=Description|VariantValue=
+ParamDesignator5=R50B
+ParamVariation6=ParameterName=Footprint|VariantValue=R_0603_1608
+ParamDesignator6=R50B
+ParamVariation7=ParameterName=HelpURL|VariantValue=https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+ParamDesignator7=R50B
+ParamVariation8=ParameterName=Ibis Model|VariantValue=
+ParamDesignator8=R50B
+ParamVariation9=ParameterName=Library Reference|VariantValue=R_1k_0603_1_AECQ0
+ParamDesignator9=R50B
+ParamVariation10=ParameterName=Manufacturer|VariantValue=Panasonic
+ParamDesignator10=R50B
+ParamVariation11=ParameterName=Manufacturer Part Number|VariantValue=ERJ-3EKF1001V
+ParamDesignator11=R50B
+ParamVariation12=ParameterName=Part Number|VariantValue=R_1k_0603_1_AECQ0
+ParamDesignator12=R50B
+ParamVariation13=ParameterName=PCB3D|VariantValue=
+ParamDesignator13=R50B
+ParamVariation14=ParameterName=Pin Info|VariantValue=
+ParamDesignator14=R50B
+ParamVariation15=ParameterName=Power|VariantValue=100mW
+ParamDesignator15=R50B
+ParamVariation16=ParameterName=SCH_Footprint|VariantValue=0603
+ParamDesignator16=R50B
+ParamVariation17=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator17=R50B
+ParamVariation18=ParameterName=Simulation|VariantValue=
+ParamDesignator18=R50B
+ParamVariation19=ParameterName=Supplier 1|VariantValue=TME
+ParamDesignator19=R50B
+ParamVariation20=ParameterName=Supplier 2|VariantValue=RS Components
+ParamDesignator20=R50B
+ParamVariation21=ParameterName=Supplier 3|VariantValue=Farnell
+ParamDesignator21=R50B
+ParamVariation22=ParameterName=Supplier 4|VariantValue=Mouser
+ParamDesignator22=R50B
+ParamVariation23=ParameterName=Supplier 5|VariantValue=Digi-Key
+ParamDesignator23=R50B
+ParamVariation24=ParameterName=Supplier 6|VariantValue=LCSC
+ParamDesignator24=R50B
+ParamVariation25=ParameterName=Supplier 7|VariantValue=
+ParamDesignator25=R50B
+ParamVariation26=ParameterName=Supplier Part Number 1|VariantValue=ERJ3EKF1001V
+ParamDesignator26=R50B
+ParamVariation27=ParameterName=Supplier Part Number 2|VariantValue=
+ParamDesignator27=R50B
+ParamVariation28=ParameterName=Supplier Part Number 3|VariantValue=2303145
+ParamDesignator28=R50B
+ParamVariation29=ParameterName=Supplier Part Number 4|VariantValue=667-ERJ-3EKF1001V
+ParamDesignator29=R50B
+ParamVariation30=ParameterName=Supplier Part Number 5|VariantValue=P1.00KHCT-ND
+ParamDesignator30=R50B
+ParamVariation31=ParameterName=Supplier Part Number 6|VariantValue=
+ParamDesignator31=R50B
+ParamVariation32=ParameterName=Supplier Part Number 7|VariantValue=
+ParamDesignator32=R50B
+ParamVariation33=ParameterName=Tolerance|VariantValue=1%
+ParamDesignator33=R50B
+ParamVariation34=ParameterName=Value|VariantValue=1k
+ParamDesignator34=R50B
+ParamVariation35=ParameterName=Voltage|VariantValue=75V
+ParamDesignator35=R50B
+Variation38=Designator=R54B|UniqueId=\PTXJEQJM\LNCBJDLU|Kind=2|AlternatePart=Resistor|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=K:\altium_lib_db\Library.DBLib/Resistors|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=R_1k_0603_1_AECQ0|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Library.DBLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation36=ParameterName=AEC-Q|VariantValue=0
+ParamDesignator36=R54B
+ParamVariation37=ParameterName=Comment|VariantValue=Resistor
+ParamDesignator37=R54B
+ParamVariation38=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator38=R54B
+ParamVariation39=ParameterName=Database Table Name|VariantValue=Resistors
+ParamDesignator39=R54B
+ParamVariation40=ParameterName=Description|VariantValue=
+ParamDesignator40=R54B
+ParamVariation41=ParameterName=Footprint|VariantValue=R_0603_1608
+ParamDesignator41=R54B
+ParamVariation42=ParameterName=HelpURL|VariantValue=https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+ParamDesignator42=R54B
+ParamVariation43=ParameterName=Ibis Model|VariantValue=
+ParamDesignator43=R54B
+ParamVariation44=ParameterName=Library Reference|VariantValue=R_1k_0603_1_AECQ0
+ParamDesignator44=R54B
+ParamVariation45=ParameterName=Manufacturer|VariantValue=Panasonic
+ParamDesignator45=R54B
+ParamVariation46=ParameterName=Manufacturer Part Number|VariantValue=ERJ-3EKF1001V
+ParamDesignator46=R54B
+ParamVariation47=ParameterName=Part Number|VariantValue=R_1k_0603_1_AECQ0
+ParamDesignator47=R54B
+ParamVariation48=ParameterName=PCB3D|VariantValue=
+ParamDesignator48=R54B
+ParamVariation49=ParameterName=Pin Info|VariantValue=
+ParamDesignator49=R54B
+ParamVariation50=ParameterName=Power|VariantValue=100mW
+ParamDesignator50=R54B
+ParamVariation51=ParameterName=SCH_Footprint|VariantValue=0603
+ParamDesignator51=R54B
+ParamVariation52=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator52=R54B
+ParamVariation53=ParameterName=Simulation|VariantValue=
+ParamDesignator53=R54B
+ParamVariation54=ParameterName=Supplier 1|VariantValue=TME
+ParamDesignator54=R54B
+ParamVariation55=ParameterName=Supplier 2|VariantValue=RS Components
+ParamDesignator55=R54B
+ParamVariation56=ParameterName=Supplier 3|VariantValue=Farnell
+ParamDesignator56=R54B
+ParamVariation57=ParameterName=Supplier 4|VariantValue=Mouser
+ParamDesignator57=R54B
+ParamVariation58=ParameterName=Supplier 5|VariantValue=Digi-Key
+ParamDesignator58=R54B
+ParamVariation59=ParameterName=Supplier 6|VariantValue=LCSC
+ParamDesignator59=R54B
+ParamVariation60=ParameterName=Supplier 7|VariantValue=
+ParamDesignator60=R54B
+ParamVariation61=ParameterName=Supplier Part Number 1|VariantValue=ERJ3EKF1001V
+ParamDesignator61=R54B
+ParamVariation62=ParameterName=Supplier Part Number 2|VariantValue=
+ParamDesignator62=R54B
+ParamVariation63=ParameterName=Supplier Part Number 3|VariantValue=2303145
+ParamDesignator63=R54B
+ParamVariation64=ParameterName=Supplier Part Number 4|VariantValue=667-ERJ-3EKF1001V
+ParamDesignator64=R54B
+ParamVariation65=ParameterName=Supplier Part Number 5|VariantValue=P1.00KHCT-ND
+ParamDesignator65=R54B
+ParamVariation66=ParameterName=Supplier Part Number 6|VariantValue=
+ParamDesignator66=R54B
+ParamVariation67=ParameterName=Supplier Part Number 7|VariantValue=
+ParamDesignator67=R54B
+ParamVariation68=ParameterName=Tolerance|VariantValue=1%
+ParamDesignator68=R54B
+ParamVariation69=ParameterName=Value|VariantValue=1k
+ParamDesignator69=R54B
+ParamVariation70=ParameterName=Voltage|VariantValue=75V
+ParamDesignator70=R54B
+Variation39=Designator=R52B|UniqueId=\PTXJEQJM\WRQHJVES|Kind=2|AlternatePart=Resistor|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=K:\altium_lib_db\Library.DBLib/Resistors|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=R_1k_0603_1_AECQ0|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Library.DBLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation71=ParameterName=AEC-Q|VariantValue=0
+ParamDesignator71=R52B
+ParamVariation72=ParameterName=Comment|VariantValue=Resistor
+ParamDesignator72=R52B
+ParamVariation73=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator73=R52B
+ParamVariation74=ParameterName=Database Table Name|VariantValue=Resistors
+ParamDesignator74=R52B
+ParamVariation75=ParameterName=Description|VariantValue=
+ParamDesignator75=R52B
+ParamVariation76=ParameterName=Footprint|VariantValue=R_0603_1608
+ParamDesignator76=R52B
+ParamVariation77=ParameterName=HelpURL|VariantValue=https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+ParamDesignator77=R52B
+ParamVariation78=ParameterName=Ibis Model|VariantValue=
+ParamDesignator78=R52B
+ParamVariation79=ParameterName=Library Reference|VariantValue=R_1k_0603_1_AECQ0
+ParamDesignator79=R52B
+ParamVariation80=ParameterName=Manufacturer|VariantValue=Panasonic
+ParamDesignator80=R52B
+ParamVariation81=ParameterName=Manufacturer Part Number|VariantValue=ERJ-3EKF1001V
+ParamDesignator81=R52B
+ParamVariation82=ParameterName=Part Number|VariantValue=R_1k_0603_1_AECQ0
+ParamDesignator82=R52B
+ParamVariation83=ParameterName=PCB3D|VariantValue=
+ParamDesignator83=R52B
+ParamVariation84=ParameterName=Pin Info|VariantValue=
+ParamDesignator84=R52B
+ParamVariation85=ParameterName=Power|VariantValue=100mW
+ParamDesignator85=R52B
+ParamVariation86=ParameterName=SCH_Footprint|VariantValue=0603
+ParamDesignator86=R52B
+ParamVariation87=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator87=R52B
+ParamVariation88=ParameterName=Simulation|VariantValue=
+ParamDesignator88=R52B
+ParamVariation89=ParameterName=Supplier 1|VariantValue=TME
+ParamDesignator89=R52B
+ParamVariation90=ParameterName=Supplier 2|VariantValue=RS Components
+ParamDesignator90=R52B
+ParamVariation91=ParameterName=Supplier 3|VariantValue=Farnell
+ParamDesignator91=R52B
+ParamVariation92=ParameterName=Supplier 4|VariantValue=Mouser
+ParamDesignator92=R52B
+ParamVariation93=ParameterName=Supplier 5|VariantValue=Digi-Key
+ParamDesignator93=R52B
+ParamVariation94=ParameterName=Supplier 6|VariantValue=LCSC
+ParamDesignator94=R52B
+ParamVariation95=ParameterName=Supplier 7|VariantValue=
+ParamDesignator95=R52B
+ParamVariation96=ParameterName=Supplier Part Number 1|VariantValue=ERJ3EKF1001V
+ParamDesignator96=R52B
+ParamVariation97=ParameterName=Supplier Part Number 2|VariantValue=
+ParamDesignator97=R52B
+ParamVariation98=ParameterName=Supplier Part Number 3|VariantValue=2303145
+ParamDesignator98=R52B
+ParamVariation99=ParameterName=Supplier Part Number 4|VariantValue=667-ERJ-3EKF1001V
+ParamDesignator99=R52B
+ParamVariation100=ParameterName=Supplier Part Number 5|VariantValue=P1.00KHCT-ND
+ParamDesignator100=R52B
+ParamVariation101=ParameterName=Supplier Part Number 6|VariantValue=
+ParamDesignator101=R52B
+ParamVariation102=ParameterName=Supplier Part Number 7|VariantValue=
+ParamDesignator102=R52B
+ParamVariation103=ParameterName=Tolerance|VariantValue=1%
+ParamDesignator103=R52B
+ParamVariation104=ParameterName=Value|VariantValue=1k
+ParamDesignator104=R52B
+ParamVariation105=ParameterName=Voltage|VariantValue=75V
+ParamDesignator105=R52B
+Variation40=Designator=MOD1|UniqueId=\BGPKSOTB\HFRXLBXB|Kind=1|AlternatePart=
+Variation41=Designator=R13D|UniqueId=\SBIUCCMJ\RLOKFENG|Kind=1|AlternatePart=
+Variation42=Designator=R23D|UniqueId=\SBIUCCMJ\ALODLOIN|Kind=1|AlternatePart=
+Variation43=Designator=R13A|UniqueId=\OLFZLMLB\RLOKFENG|Kind=1|AlternatePart=
+Variation44=Designator=R23A|UniqueId=\OLFZLMLB\ALODLOIN|Kind=1|AlternatePart=
+Variation45=Designator=R13B|UniqueId=\OPHVOGGF\RLOKFENG|Kind=1|AlternatePart=
+Variation46=Designator=R23B|UniqueId=\OPHVOGGF\ALODLOIN|Kind=1|AlternatePart=
+Variation47=Designator=R13C|UniqueId=\JKFHDHKR\RLOKFENG|Kind=1|AlternatePart=
+Variation48=Designator=R23C|UniqueId=\JKFHDHKR\ALODLOIN|Kind=1|AlternatePart=
+ParamVariationCount=105
 
 [ProjectVariant2]
 UniqueId=68bdd096-d770-4844-bffe-70cdb3b87d80
 Description=testing
 AllowFabrication=0
 ParameterCount=0
-VariationCount=287
+VariationCount=285
 Variation1=Designator=C1A|UniqueId=\UBRUKMSH\FWQZXREY|Kind=1|AlternatePart=
 Variation2=Designator=C10A|UniqueId=\OLFZLMLB\GTVYOOGG|Kind=1|AlternatePart=
 Variation3=Designator=R27A|UniqueId=\OLFZLMLB\SBXJZFQK|Kind=1|AlternatePart=
@@ -576,9 +713,9 @@ Variation167=Designator=Q2D|UniqueId=\VLQODBEI\JVPLQZYW|Kind=1|AlternatePart=
 Variation168=Designator=R2D|UniqueId=\VLQODBEI\VTKWHVZR|Kind=1|AlternatePart=
 Variation169=Designator=Q2C|UniqueId=\QEVXDZDJ\JVPLQZYW|Kind=1|AlternatePart=
 Variation170=Designator=R2C|UniqueId=\QEVXDZDJ\VTKWHVZR|Kind=2|AlternatePart=Resistor|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=K:\altium_lib_db\Library.DBLib/Resistors|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=R_1k_0603_1_AECQ0|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Library.DBLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0603_1608|AltLibLink_IsSameFootprint=True
-ParamVariation1=ParameterName=AEC-Q|VariantValue=0
+ParamVariation1=ParameterName=Comment|VariantValue=Resistor
 ParamDesignator1=R2C
-ParamVariation2=ParameterName=Comment|VariantValue=Resistor
+ParamVariation2=ParameterName=AEC-Q|VariantValue=0
 ParamDesignator2=R2C
 ParamVariation3=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator3=R2C
@@ -698,164 +835,70 @@ Variation219=Designator=R29B|UniqueId=\OPHVOGGF\ULUDVPYP|Kind=1|AlternatePart=
 Variation220=Designator=R28B|UniqueId=\OPHVOGGF\OILUYNRZ|Kind=1|AlternatePart=
 Variation221=Designator=C20B|UniqueId=\OPHVOGGF\ARPFFEPV|Kind=1|AlternatePart=
 Variation222=Designator=R24B|UniqueId=\OPHVOGGF\ROFRCHAL|Kind=1|AlternatePart=
-Variation223=Designator=C18B|UniqueId=\OPHVOGGF\JXDEJLUB|Kind=0|AlternatePart=
-Variation224=Designator=R13C|UniqueId=\JKFHDHKR\RLOKFENG|Kind=1|AlternatePart=
-Variation225=Designator=R23C|UniqueId=\JKFHDHKR\ALODLOIN|Kind=1|AlternatePart=
-Variation226=Designator=R7C|UniqueId=\JKFHDHKR\NOGOPPJE|Kind=1|AlternatePart=
-Variation227=Designator=R8C|UniqueId=\JKFHDHKR\KGDYNGSE|Kind=1|AlternatePart=
-Variation228=Designator=R9C|UniqueId=\JKFHDHKR\SBUCEKDK|Kind=1|AlternatePart=
-Variation229=Designator=R24C|UniqueId=\JKFHDHKR\ROFRCHAL|Kind=1|AlternatePart=
-Variation230=Designator=C17C|UniqueId=\JKFHDHKR\UXGATCCN|Kind=1|AlternatePart=
-Variation231=Designator=C18C|UniqueId=\JKFHDHKR\JXDEJLUB|Kind=1|AlternatePart=
-Variation232=Designator=R25C|UniqueId=\JKFHDHKR\AWKZWAFQ|Kind=1|AlternatePart=
-Variation233=Designator=R27C|UniqueId=\JKFHDHKR\SBXJZFQK|Kind=1|AlternatePart=
-Variation234=Designator=Q4C|UniqueId=\JKFHDHKR\EUADXZIR|Kind=1|AlternatePart=
-Variation235=Designator=R26C|UniqueId=\JKFHDHKR\WXAKRIHK|Kind=1|AlternatePart=
-Variation236=Designator=C19C|UniqueId=\JKFHDHKR\QQKDNMVC|Kind=1|AlternatePart=
-Variation237=Designator=R28C|UniqueId=\JKFHDHKR\OILUYNRZ|Kind=1|AlternatePart=
-Variation238=Designator=Q5C|UniqueId=\JKFHDHKR\WBHQAKOG|Kind=1|AlternatePart=
-Variation239=Designator=R29C|UniqueId=\JKFHDHKR\ULUDVPYP|Kind=1|AlternatePart=
-Variation240=Designator=C20C|UniqueId=\JKFHDHKR\ARPFFEPV|Kind=1|AlternatePart=
-Variation241=Designator=Q2B|UniqueId=\UGBDDSLU\JVPLQZYW|Kind=1|AlternatePart=
-Variation242=Designator=R4B|UniqueId=\UGBDDSLU\GUYTBXCU|Kind=1|AlternatePart=
-Variation243=Designator=R3B|UniqueId=\UGBDDSLU\NCDZWGUL|Kind=1|AlternatePart=
-Variation244=Designator=C4B|UniqueId=\UGBDDSLU\AMMUTABL|Kind=1|AlternatePart=
-Variation245=Designator=R5B|UniqueId=\UGBDDSLU\SDECPSWS|Kind=1|AlternatePart=
-Variation246=Designator=Q3B|UniqueId=\UGBDDSLU\PQHQCEDH|Kind=1|AlternatePart=
-Variation247=Designator=R6B|UniqueId=\UGBDDSLU\JFVPYBJH|Kind=1|AlternatePart=
-Variation248=Designator=C5B|UniqueId=\UGBDDSLU\BIGFAIHK|Kind=1|AlternatePart=
-Variation249=Designator=C3B|UniqueId=\UGBDDSLU\DVMOWLGY|Kind=1|AlternatePart=
-Variation250=Designator=R10B|UniqueId=\UGBDDSLU\ADQAGHDU|Kind=1|AlternatePart=
-Variation251=Designator=R40B|UniqueId=\JGNBHYUV\LJJBJCMP|Kind=1|AlternatePart=
-Variation252=Designator=R41A|UniqueId=\WSEUZHIU\QBBMQECM|Kind=1|AlternatePart=
-Variation253=Designator=R46A|UniqueId=\WSEUZHIU\UZZIDSMB|Kind=1|AlternatePart=
-Variation254=Designator=R54A|UniqueId=\ITQECYCU\LNCBJDLU|Kind=1|AlternatePart=
-Variation255=Designator=Q7A|UniqueId=\ITQECYCU\GBKRPCTV|Kind=1|AlternatePart=
-Variation256=Designator=Q6A|UniqueId=\ITQECYCU\IQTACFCA|Kind=1|AlternatePart=
-Variation257=Designator=Q8A|UniqueId=\ITQECYCU\RVIOPZEU|Kind=1|AlternatePart=
-Variation258=Designator=R49A|UniqueId=\ITQECYCU\GARAUPYQ|Kind=1|AlternatePart=
-Variation259=Designator=R50A|UniqueId=\ITQECYCU\SIZYGMZQ|Kind=1|AlternatePart=
-Variation260=Designator=R47A|UniqueId=\ITQECYCU\XCDGXYAX|Kind=1|AlternatePart=
-Variation261=Designator=R52A|UniqueId=\ITQECYCU\WRQHJVES|Kind=1|AlternatePart=
-Variation262=Designator=R51A|UniqueId=\ITQECYCU\MAHAMRGZ|Kind=1|AlternatePart=
-Variation263=Designator=R53A|UniqueId=\ITQECYCU\FHVHLXNQ|Kind=1|AlternatePart=
-Variation264=Designator=R48A|UniqueId=\ITQECYCU\BNFZCPXQ|Kind=1|AlternatePart=
-Variation265=Designator=C33A|UniqueId=\ITQECYCU\VRYZGZEK|Kind=1|AlternatePart=
-Variation266=Designator=C31A|UniqueId=\ITQECYCU\UTUYQPXQ|Kind=1|AlternatePart=
-Variation267=Designator=P5A|UniqueId=\ITQECYCU\FRCLGELA|Kind=1|AlternatePart=
-Variation268=Designator=C30A|UniqueId=\ITQECYCU\KGGUHRPI|Kind=1|AlternatePart=
-Variation269=Designator=C32A|UniqueId=\ITQECYCU\KRNVCIPX|Kind=1|AlternatePart=
-Variation270=Designator=C29A|UniqueId=\ITQECYCU\NNWRDCIB|Kind=1|AlternatePart=
-Variation271=Designator=R55|UniqueId=\MBWUEBIX\SKFMORWB|Kind=0|AlternatePart=
-Variation272=Designator=C34|UniqueId=\MBWUEBIX\LWHBAFHE|Kind=1|AlternatePart=
-Variation273=Designator=C35|UniqueId=\MBWUEBIX\LUBGWHSP|Kind=1|AlternatePart=
-Variation274=Designator=R56|UniqueId=\MBWUEBIX\LXSJMRBT|Kind=1|AlternatePart=
-Variation275=Designator=P7|UniqueId=\MBWUEBIX\GSEZSINY|Kind=1|AlternatePart=
-Variation276=Designator=R57|UniqueId=\MBWUEBIX\SOWOTRGH|Kind=1|AlternatePart=
-Variation277=Designator=C37|UniqueId=\MBWUEBIX\BHHQFHOV|Kind=1|AlternatePart=
-Variation278=Designator=C36|UniqueId=\MBWUEBIX\DICSBHGE|Kind=1|AlternatePart=
-Variation279=Designator=R58|UniqueId=\MBWUEBIX\WROHSEZL|Kind=1|AlternatePart=
-Variation280=Designator=P8|UniqueId=\MBWUEBIX\AIRHYIBK|Kind=1|AlternatePart=
-Variation281=Designator=R63|UniqueId=\MBWUEBIX\ROPFXUVW|Kind=1|AlternatePart=
-Variation282=Designator=C38|UniqueId=\MBWUEBIX\BGBJKVKS|Kind=1|AlternatePart=
-Variation283=Designator=C39|UniqueId=\MBWUEBIX\YKAGEYJR|Kind=1|AlternatePart=
-Variation284=Designator=R62|UniqueId=\MBWUEBIX\MWPAOHQA|Kind=1|AlternatePart=
-Variation285=Designator=R60|UniqueId=\MBWUEBIX\RYGYPYNV|Kind=1|AlternatePart=
-Variation286=Designator=R59|UniqueId=\MBWUEBIX\MORHRMBY|Kind=1|AlternatePart=
-Variation287=Designator=R43A|UniqueId=\WSEUZHIU\BOMVYVWU|Kind=1|AlternatePart=
+Variation223=Designator=R13C|UniqueId=\JKFHDHKR\RLOKFENG|Kind=1|AlternatePart=
+Variation224=Designator=R23C|UniqueId=\JKFHDHKR\ALODLOIN|Kind=1|AlternatePart=
+Variation225=Designator=R7C|UniqueId=\JKFHDHKR\NOGOPPJE|Kind=1|AlternatePart=
+Variation226=Designator=R8C|UniqueId=\JKFHDHKR\KGDYNGSE|Kind=1|AlternatePart=
+Variation227=Designator=R9C|UniqueId=\JKFHDHKR\SBUCEKDK|Kind=1|AlternatePart=
+Variation228=Designator=R24C|UniqueId=\JKFHDHKR\ROFRCHAL|Kind=1|AlternatePart=
+Variation229=Designator=C17C|UniqueId=\JKFHDHKR\UXGATCCN|Kind=1|AlternatePart=
+Variation230=Designator=C18C|UniqueId=\JKFHDHKR\JXDEJLUB|Kind=1|AlternatePart=
+Variation231=Designator=R25C|UniqueId=\JKFHDHKR\AWKZWAFQ|Kind=1|AlternatePart=
+Variation232=Designator=R27C|UniqueId=\JKFHDHKR\SBXJZFQK|Kind=1|AlternatePart=
+Variation233=Designator=Q4C|UniqueId=\JKFHDHKR\EUADXZIR|Kind=1|AlternatePart=
+Variation234=Designator=R26C|UniqueId=\JKFHDHKR\WXAKRIHK|Kind=1|AlternatePart=
+Variation235=Designator=C19C|UniqueId=\JKFHDHKR\QQKDNMVC|Kind=1|AlternatePart=
+Variation236=Designator=R28C|UniqueId=\JKFHDHKR\OILUYNRZ|Kind=1|AlternatePart=
+Variation237=Designator=Q5C|UniqueId=\JKFHDHKR\WBHQAKOG|Kind=1|AlternatePart=
+Variation238=Designator=R29C|UniqueId=\JKFHDHKR\ULUDVPYP|Kind=1|AlternatePart=
+Variation239=Designator=C20C|UniqueId=\JKFHDHKR\ARPFFEPV|Kind=1|AlternatePart=
+Variation240=Designator=Q2B|UniqueId=\UGBDDSLU\JVPLQZYW|Kind=1|AlternatePart=
+Variation241=Designator=R4B|UniqueId=\UGBDDSLU\GUYTBXCU|Kind=1|AlternatePart=
+Variation242=Designator=R3B|UniqueId=\UGBDDSLU\NCDZWGUL|Kind=1|AlternatePart=
+Variation243=Designator=C4B|UniqueId=\UGBDDSLU\AMMUTABL|Kind=1|AlternatePart=
+Variation244=Designator=R5B|UniqueId=\UGBDDSLU\SDECPSWS|Kind=1|AlternatePart=
+Variation245=Designator=Q3B|UniqueId=\UGBDDSLU\PQHQCEDH|Kind=1|AlternatePart=
+Variation246=Designator=R6B|UniqueId=\UGBDDSLU\JFVPYBJH|Kind=1|AlternatePart=
+Variation247=Designator=C5B|UniqueId=\UGBDDSLU\BIGFAIHK|Kind=1|AlternatePart=
+Variation248=Designator=C3B|UniqueId=\UGBDDSLU\DVMOWLGY|Kind=1|AlternatePart=
+Variation249=Designator=R10B|UniqueId=\UGBDDSLU\ADQAGHDU|Kind=1|AlternatePart=
+Variation250=Designator=R40B|UniqueId=\JGNBHYUV\LJJBJCMP|Kind=1|AlternatePart=
+Variation251=Designator=R41A|UniqueId=\WSEUZHIU\QBBMQECM|Kind=1|AlternatePart=
+Variation252=Designator=R46A|UniqueId=\WSEUZHIU\UZZIDSMB|Kind=1|AlternatePart=
+Variation253=Designator=R54A|UniqueId=\ITQECYCU\LNCBJDLU|Kind=1|AlternatePart=
+Variation254=Designator=Q7A|UniqueId=\ITQECYCU\GBKRPCTV|Kind=1|AlternatePart=
+Variation255=Designator=Q6A|UniqueId=\ITQECYCU\IQTACFCA|Kind=1|AlternatePart=
+Variation256=Designator=Q8A|UniqueId=\ITQECYCU\RVIOPZEU|Kind=1|AlternatePart=
+Variation257=Designator=R49A|UniqueId=\ITQECYCU\GARAUPYQ|Kind=1|AlternatePart=
+Variation258=Designator=R50A|UniqueId=\ITQECYCU\SIZYGMZQ|Kind=1|AlternatePart=
+Variation259=Designator=R47A|UniqueId=\ITQECYCU\XCDGXYAX|Kind=1|AlternatePart=
+Variation260=Designator=R52A|UniqueId=\ITQECYCU\WRQHJVES|Kind=1|AlternatePart=
+Variation261=Designator=R51A|UniqueId=\ITQECYCU\MAHAMRGZ|Kind=1|AlternatePart=
+Variation262=Designator=R53A|UniqueId=\ITQECYCU\FHVHLXNQ|Kind=1|AlternatePart=
+Variation263=Designator=R48A|UniqueId=\ITQECYCU\BNFZCPXQ|Kind=1|AlternatePart=
+Variation264=Designator=C33A|UniqueId=\ITQECYCU\VRYZGZEK|Kind=1|AlternatePart=
+Variation265=Designator=C31A|UniqueId=\ITQECYCU\UTUYQPXQ|Kind=1|AlternatePart=
+Variation266=Designator=P5A|UniqueId=\ITQECYCU\FRCLGELA|Kind=1|AlternatePart=
+Variation267=Designator=C30A|UniqueId=\ITQECYCU\KGGUHRPI|Kind=1|AlternatePart=
+Variation268=Designator=C32A|UniqueId=\ITQECYCU\KRNVCIPX|Kind=1|AlternatePart=
+Variation269=Designator=C29A|UniqueId=\ITQECYCU\NNWRDCIB|Kind=1|AlternatePart=
+Variation270=Designator=C34|UniqueId=\MBWUEBIX\LWHBAFHE|Kind=1|AlternatePart=
+Variation271=Designator=C35|UniqueId=\MBWUEBIX\LUBGWHSP|Kind=1|AlternatePart=
+Variation272=Designator=R56|UniqueId=\MBWUEBIX\LXSJMRBT|Kind=1|AlternatePart=
+Variation273=Designator=P7|UniqueId=\MBWUEBIX\GSEZSINY|Kind=1|AlternatePart=
+Variation274=Designator=R57|UniqueId=\MBWUEBIX\SOWOTRGH|Kind=1|AlternatePart=
+Variation275=Designator=C37|UniqueId=\MBWUEBIX\BHHQFHOV|Kind=1|AlternatePart=
+Variation276=Designator=C36|UniqueId=\MBWUEBIX\DICSBHGE|Kind=1|AlternatePart=
+Variation277=Designator=R58|UniqueId=\MBWUEBIX\WROHSEZL|Kind=1|AlternatePart=
+Variation278=Designator=P8|UniqueId=\MBWUEBIX\AIRHYIBK|Kind=1|AlternatePart=
+Variation279=Designator=R63|UniqueId=\MBWUEBIX\ROPFXUVW|Kind=1|AlternatePart=
+Variation280=Designator=C38|UniqueId=\MBWUEBIX\BGBJKVKS|Kind=1|AlternatePart=
+Variation281=Designator=C39|UniqueId=\MBWUEBIX\YKAGEYJR|Kind=1|AlternatePart=
+Variation282=Designator=R62|UniqueId=\MBWUEBIX\MWPAOHQA|Kind=1|AlternatePart=
+Variation283=Designator=R60|UniqueId=\MBWUEBIX\RYGYPYNV|Kind=1|AlternatePart=
+Variation284=Designator=R59|UniqueId=\MBWUEBIX\MORHRMBY|Kind=1|AlternatePart=
+Variation285=Designator=R43A|UniqueId=\WSEUZHIU\BOMVYVWU|Kind=1|AlternatePart=
 ParamVariationCount=35
-
-[GeneratedDocument1]
-DocumentPath=./\RV901-cnc_gerber\NC Drill\RV901-cnc-RoundHoles-NonPlated.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=./\RV901-cnc_gerber\NC Drill\RV901-cnc-RoundHoles-Plated.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=./\RV901-cnc_gerber\NC Drill\RV901-cnc-SlotHoles-Plated.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=./\RV901-cnc_gerber\NC Drill\RV901-cnc.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=./\RV901-cnc_gerber\Gerber\RV901-cnc.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=./\RV901-cnc_gerber\Gerber\RV901-cnc.G1
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=./\RV901-cnc_gerber\Gerber\RV901-cnc.G2
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=./\RV901-cnc_gerber\Gerber\RV901-cnc.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=./\RV901-cnc_gerber\Gerber\RV901-cnc.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=./\RV901-cnc_gerber\Gerber\RV901-cnc.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=./\RV901-cnc_gerber\Gerber\RV901-cnc.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=./\RV901-cnc_gerber\Gerber\RV901-cnc.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=./\RV901-cnc_gerber\Gerber\RV901-cnc.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=./\RV901-cnc_gerber\Gerber\RV901-cnc.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=./\RV901-cnc_gerber\Gerber\RV901-cnc.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=./\RV901-cnc_gerber\Gerber\RV901-cnc.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=./\RV901-cnc_gerber\DiffReport\RV901-cnc.html
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=./\RV901-cnc_gerber\DRC\RV901-cnc.html
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=./\RV901-cnc_gerber\ERC\RV901-cnc.html
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=./\RV901-cnc_gerber\NC Drill\RV901-cnc.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=./\RV901-cnc_gerber\Gerber\RV901-cnc.REP
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=./\RV901-cnc_gerber\Gerber\RV901-cnc.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=./\RV901-cnc_gerber\Report Board Stack\RV901-cnc.xls
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
