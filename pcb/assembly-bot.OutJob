@@ -18,10 +18,10 @@ RevisionNamingSchemeGUID=
 Name=assembly-bot.OutJob
 Description=
 TargetOutputMedium=Folder Structure
-VariantName=testing
+VariantName=ploter
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=RICOH Aficio MP C305
+TargetPrinter=Brother PT-E550W
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
